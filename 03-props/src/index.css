@@ -1,0 +1,46 @@
+.parentcard{
+  display: flex;
+  background: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:20px
+}
+.card {
+  background: rgb(247, 237, 237);
+  display: flex;
+  padding: 12px;
+  border-radius: 12px;
+  width: 200px;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.compimg{
+  height:50px
+}
+.btnsave{
+  background-color: rgb(236, 234, 234);
+  border: 1px solid #eee;
+  padding: 4px 8px;
+  width:max-content;
+  height: 30px;
+  font-size: 12px;
+
+}
+.bottom{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.btnapply{
+  background-color: rgb(236, 234, 234);
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  width:max-content;
+  height: 30px;
+}
