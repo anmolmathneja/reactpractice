@@ -12,7 +12,7 @@ const Cards = (props) => {
             {props.intro}
         </p>
         <div className="absolute bottom-3 p-3 w-full flex justify-between items-center">
-        <button style={{backgroundColor:props.color}} className=" rounded-full px-6 py-1.5 text-[14px] font-bold">{props.tag}</button>
+        <button style={{backgroundColor:props.color}} className="text-white rounded-full px-6 py-1.5 text-[14px] font-extrabold">{props.tag}</button>
         <button className="text-black rounded-full ml-2 bg-white p-1" style={{backgroundColor:props.color}}><ArrowBigRight  className="size-5" /></button>
         </div>
     </div>
