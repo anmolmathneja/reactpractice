@@ -38,3 +38,5 @@ coverage/
 
 # TypeScript
 *.tsbuildinfo
+
+images/*
